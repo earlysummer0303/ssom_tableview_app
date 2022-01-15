@@ -15,6 +15,7 @@
 		CD7F58EC2791DDFC00DE06FA /* onepiece_bountylistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F58EB2791DDFC00DE06FA /* onepiece_bountylistTests.swift */; };
 		CD7F58F72791DDFC00DE06FA /* onepiece_bountylistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F58F62791DDFC00DE06FA /* onepiece_bountylistUITests.swift */; };
 		CD7F59052791E02F00DE06FA /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F59042791E02F00DE06FA /* BountyViewController.swift */; };
+		CD7F59072792D80800DE06FA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F59062792D80800DE06FA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CD7F58F62791DDFC00DE06FA /* onepiece_bountylistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onepiece_bountylistUITests.swift; sourceTree = "<group>"; };
 		CD7F58F82791DDFC00DE06FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD7F59042791E02F00DE06FA /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
+		CD7F59062792D80800DE06FA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CD7F58D62791DDFB00DE06FA /* SceneDelegate.swift */,
 				CD7F58DA2791DDFB00DE06FA /* Main.storyboard */,
 				CD7F59042791E02F00DE06FA /* BountyViewController.swift */,
+				CD7F59062792D80800DE06FA /* DetailViewController.swift */,
 				CD7F58DD2791DDFC00DE06FA /* Assets.xcassets */,
 				CD7F58DF2791DDFC00DE06FA /* LaunchScreen.storyboard */,
 				CD7F58E22791DDFC00DE06FA /* Info.plist */,
@@ -261,6 +264,7 @@
 				CD7F58D52791DDFB00DE06FA /* AppDelegate.swift in Sources */,
 				CD7F59052791E02F00DE06FA /* BountyViewController.swift in Sources */,
 				CD7F58D72791DDFB00DE06FA /* SceneDelegate.swift in Sources */,
+				CD7F59072792D80800DE06FA /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

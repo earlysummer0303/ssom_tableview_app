@@ -14,6 +14,22 @@ class BountyViewController: UIViewController, UITableViewDataSource,UITableViewD
     // UITableViewDataSource 프로토콜에 대한 응답
     // cell 개수는 몇개로 할거야?
     // 테이블 뷰를 어떻게 보여줄거야?
+    
+    // 세그웨이가 실행되기 전 준비하는 함수
+    override func prepare(for segue:UIStoryboardSegue, sender: Any?) {
+       //detailviewcontroller 에게 데이터 줄거야
+        if segue.identifier == "showDetail" {
+            // 세그웨이의 종착지가 디테일 뷰 컨트롤러이다.
+            let vc = segue.destination as? DetailViewController
+            
+            if let i = sender as? Int {
+                vc?.name = nameList[i] // bounty 랑 name 이라는 변수명으로 디테일뷰 컨트롤러로 넘어가쥬
+                vc?.bounty = bountyList[i]
+            }
+        }
+    }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //cell 개수는 다섯개로 할거야
         return bountyList.count
@@ -52,6 +68,8 @@ class BountyViewController: UIViewController, UITableViewDataSource,UITableViewD
         // 한 셀을 누르면(didSelectRowAt indexPath)
         print ("--> \(nameList[indexPath.row])")
         // 그 셀의 row 값을 print 할게.
+        // 버튼이 눌릴때 호출되는 함수 - segue
+        performSegue(withIdentifier: "showDetail" /* segue의 id(identifier)*/, sender: indexPath.row /*다른 페이지로 끼워보낼 정보는 없음*/)
     }
 
     
