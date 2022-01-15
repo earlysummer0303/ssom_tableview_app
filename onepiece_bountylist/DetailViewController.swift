@@ -22,7 +22,8 @@ class DetailViewController: UIViewController {
         // 뷰가 로드되고 나면 수행해야할 추가적인 작업
         super.viewDidLoad()
         updateUI() // 내가 이거 안적어서 계속 뷰가 업데이트 안되었다..
-  
+        nameLabel.adjustsFontSizeToFitWidth = true
+        bountyLabel.adjustsFontSizeToFitWidth = true
     }
     
     func updateUI(){// 받아오는 정보에 따라 ui를 업데이트 하는 기능

@@ -115,21 +115,16 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBq-R0-Bgm">
                                 <rect key="frame" x="0.0" y="545" width="394" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="394" id="FzE-gM-f58"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="깁스한쏨" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJV-v5-eN9">
                                 <rect key="frame" x="20" y="664" width="374" height="54"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="1Nu-Mc-euW"/>
-                                    <constraint firstAttribute="width" constant="75" id="NQ1-GF-MLh"/>
                                     <constraint firstAttribute="height" constant="54" id="ysV-Ta-thb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -142,11 +137,9 @@
                             <constraint firstItem="S8m-tw-cQ5" firstAttribute="top" secondItem="nYc-Jc-crJ" secondAttribute="top" constant="30" id="GXv-Sz-HEi"/>
                             <constraint firstItem="nYc-Jc-crJ" firstAttribute="trailing" secondItem="S8m-tw-cQ5" secondAttribute="trailing" constant="37" id="Izv-52-uzr"/>
                             <constraint firstItem="bJV-v5-eN9" firstAttribute="top" secondItem="IBq-R0-Bgm" secondAttribute="bottom" constant="59" id="N4y-j4-Pb2"/>
-                            <constraint firstItem="bJV-v5-eN9" firstAttribute="width" secondItem="F3A-zn-57n" secondAttribute="width" multiplier="0.181159" id="UwZ-M6-5SY"/>
                             <constraint firstItem="oul-n8-pAI" firstAttribute="centerX" secondItem="nYc-Jc-crJ" secondAttribute="centerX" id="aLQ-Z0-1pS"/>
                             <constraint firstItem="oul-n8-pAI" firstAttribute="top" secondItem="nYc-Jc-crJ" secondAttribute="top" constant="100" id="bAh-pH-Y2N"/>
                             <constraint firstItem="IBq-R0-Bgm" firstAttribute="top" secondItem="oul-n8-pAI" secondAttribute="bottom" constant="71" id="fpL-uh-lWW"/>
-                            <constraint firstItem="IBq-R0-Bgm" firstAttribute="width" secondItem="F3A-zn-57n" secondAttribute="width" multiplier="0.304348" id="nM8-Ld-wvb"/>
                             <constraint firstItem="bJV-v5-eN9" firstAttribute="centerX" secondItem="nYc-Jc-crJ" secondAttribute="centerX" id="yHd-qH-gav"/>
                         </constraints>
                     </view>

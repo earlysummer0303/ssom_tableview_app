@@ -10,7 +10,7 @@ import UIKit
 class BountyViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
     
     let nameList = ["산책쏨","쩍벌쏨", "그린쏨", "꽃개쏨", "깁스쏨", "휠체어쏨", "뀨쏨", "모해쏨", "꽃꽂쏨"]
-    let bountyList = ["마실나온 쏨이","다리를 발라당 쏨이", "풀 속 쏨이","깁스한쏨 ㅠ", "민서가 만든 휠체어","뀨한 쏨쩰리", "모해??", "귀에 꽃꽂아쏨"]
+    let bountyList = ["마실나온 쏨이","다리를 발라당 쏨이", "풀 속 쏨이","꽃과 쏨이", "깁스했쏨ㅠㅠ","민서가 만든 휠체어", "모해??","뀨한 쏨 쩰리", "귀에 꽃꽂아쏨"]
     // UITableViewDataSource 프로토콜에 대한 응답
     // cell 개수는 몇개로 할거야?
     // 테이블 뷰를 어떻게 보여줄거야?
