@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		CD7F58D52791DDFB00DE06FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F58D42791DDFB00DE06FA /* AppDelegate.swift */; };
 		CD7F58D72791DDFB00DE06FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F58D62791DDFB00DE06FA /* SceneDelegate.swift */; };
-		CD7F58D92791DDFB00DE06FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F58D82791DDFB00DE06FA /* ViewController.swift */; };
 		CD7F58DC2791DDFB00DE06FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7F58DA2791DDFB00DE06FA /* Main.storyboard */; };
 		CD7F58DE2791DDFC00DE06FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7F58DD2791DDFC00DE06FA /* Assets.xcassets */; };
 		CD7F58E12791DDFC00DE06FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7F58DF2791DDFC00DE06FA /* LaunchScreen.storyboard */; };
 		CD7F58EC2791DDFC00DE06FA /* onepiece_bountylistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F58EB2791DDFC00DE06FA /* onepiece_bountylistTests.swift */; };
 		CD7F58F72791DDFC00DE06FA /* onepiece_bountylistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F58F62791DDFC00DE06FA /* onepiece_bountylistUITests.swift */; };
+		CD7F59052791E02F00DE06FA /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F59042791E02F00DE06FA /* BountyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		CD7F58D12791DDFB00DE06FA /* onepiece_bountylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onepiece_bountylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7F58D42791DDFB00DE06FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7F58D62791DDFB00DE06FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD7F58D82791DDFB00DE06FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD7F58DB2791DDFB00DE06FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD7F58DD2791DDFC00DE06FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD7F58E02791DDFC00DE06FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		CD7F58F22791DDFC00DE06FA /* onepiece_bountylistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onepiece_bountylistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7F58F62791DDFC00DE06FA /* onepiece_bountylistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onepiece_bountylistUITests.swift; sourceTree = "<group>"; };
 		CD7F58F82791DDFC00DE06FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7F59042791E02F00DE06FA /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				CD7F58D42791DDFB00DE06FA /* AppDelegate.swift */,
 				CD7F58D62791DDFB00DE06FA /* SceneDelegate.swift */,
-				CD7F58D82791DDFB00DE06FA /* ViewController.swift */,
 				CD7F58DA2791DDFB00DE06FA /* Main.storyboard */,
+				CD7F59042791E02F00DE06FA /* BountyViewController.swift */,
 				CD7F58DD2791DDFC00DE06FA /* Assets.xcassets */,
 				CD7F58DF2791DDFC00DE06FA /* LaunchScreen.storyboard */,
 				CD7F58E22791DDFC00DE06FA /* Info.plist */,
@@ -258,8 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7F58D92791DDFB00DE06FA /* ViewController.swift in Sources */,
 				CD7F58D52791DDFB00DE06FA /* AppDelegate.swift in Sources */,
+				CD7F59052791E02F00DE06FA /* BountyViewController.swift in Sources */,
 				CD7F58D72791DDFB00DE06FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
