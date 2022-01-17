@@ -15,11 +15,17 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var nameLabel : UILabel!
     @IBOutlet weak var bountyLabel : UILabel!
     
+    /*
+    var bountyinfo : BountyInfo?
+    
     var name : String?
     var bounty : String?
+    */
+    
+    let viewModel = detailViewModel()
 
     override func viewDidLoad() {
-        // 뷰가 로드되고 나면 수행해야할 추가적인 작업
+        // 뷰가 메모리에 로드되고, 화면에 뜨기 수행해야할 추가적인 작업
         super.viewDidLoad()
         updateUI() // 내가 이거 안적어서 계속 뷰가 업데이트 안되었다..
         nameLabel.adjustsFontSizeToFitWidth = true
@@ -28,12 +34,16 @@ class DetailViewController: UIViewController {
     
     func updateUI(){// 받아오는 정보에 따라 ui를 업데이트 하는 기능
         
-        if let name = self.name, let bounty = self.bounty {
-            let img = UIImage(named:"\(name).jpg")
+        if let bountyinfo = self.viewModel.bountyinfo{
+            
+            let img = UIImage(named:"\(bountyinfo.name).jpg")
             imageview.image = img
-            nameLabel.text = name
-            bountyLabel.text = bounty
+            nameLabel.text = bountyinfo.name
+            bountyLabel.text = bountyinfo.bounty
+            
         }
+        
+        
         
     }
     
@@ -42,4 +52,14 @@ class DetailViewController: UIViewController {
         dismiss(animated:true , completion:nil)
     }
     
+}
+
+class detailViewModel {
+    
+    var bountyinfo : BountyInfo?
+    
+    // 중요!!!! 업데이트 함수
+    func update (model:BountyInfo?) {
+        bountyinfo = model
+    }
 }
